@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A gift for Valentine's Day</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="Mainprompt">
+            <img class="image" src="images/cute.gif"></img>
+            <div class="text">
+              <h1 class="hh" id="name">Привіт, моя красуне!</h1>
+              <p class="pp" id="question">Ти будеш моєю Валентинкою? </p>
+            </div>
+            <div class="buttons">
+                <button class="button no" id="no-button" onclick="showMessage('No')">Ні</button>
+                <button class="button yes"  onclick="showMessage('Yes')" id="yesButton">Так</button>
+            </div>
+            <audio src="sergiy-lyublyu-tebe-manish-mene-durmanish-lyublyu-tebe-mp3.mp3" id="song"></audio>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
